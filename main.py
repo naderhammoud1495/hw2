@@ -16,15 +16,15 @@ def countrey(country_name):
     countries= ''
     json_pa = (r.json())
     countries+= "<b>Country’s Full Name:" +json_pa[0]['name']+ '<br/>'
-   # print("Country’s Full Name:", dic[0]['name'])
+   # print("Country’s Full Name:", json_pa[0]['name'])
 
     countries +="Country’s Capital :"+ json_pa[0]['capital']+'<br/>'
     countries +="Country’s Common Language:" + json_pa[0]["languages"][0]["name"] + '<br/>'
 
-   # print("Country’s Common Language:", dic[0]['languages'][0]['name'])
+   # print("Country’s Common Language:", json_pa[0]['languages'][0]['name'])
     countries+="Country’s Currency Name:"+ json_pa[0]["currencies"][0]["name"]+ '<br/>'
 
-   # print("Country’s Currency Name:", dic[0]['currencies'][0]['name'])
+   # print("Country’s Currency Name:", json_pa[0]['currencies'][0]['name'])
 
     cur = json_pa[0]['currencies'][0]["code"]
 
@@ -33,7 +33,7 @@ def countrey(country_name):
     json_pa2 = (r1.json())
     countries+="Country’s Currency rate (Base currency is EURO)  :"+str(json_pa2['rates'][cur])+'<br/>'
 
-    #print("Country’s Currency rate (Base currency is EURO)  :", dic2['rates'][curcode])
+    #print("Country’s Currency rate (Base currency is EURO)  :", json_pa2['rates'][curcode])
 
     return (countries)
 
