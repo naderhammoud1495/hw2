@@ -1,13 +1,13 @@
 # hw2
 Python Code that receives a country name and it returns Country’s Full Name Capital Common Language Currency Name and Currency rate.
 
-#Installation
+##Installation
 
 pip install flask
 
 pip install requests
 
-#Run the code
+##Run the code
 
 git clone https://github.com/naderhammoud1495/hw2.git
 
