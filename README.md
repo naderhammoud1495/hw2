@@ -15,6 +15,7 @@ git clone https://github.com/naderhammoud1495/hw2.git
 cd hw2
 
 python main.py
+```
 
 ## To create image and run with docker
 ```bash
