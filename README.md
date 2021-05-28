@@ -3,10 +3,11 @@
 Python Code that receives a country name and it returns Country’s Full Name Capital Common Language Currency Name and Currency rate.
 
 ## Installation
-
+```bash
 pip install flask
-pip install requests
 
+pip install requests
+```
 ## Run the code
 
 git clone https://github.com/naderhammoud1495/hw2.git
