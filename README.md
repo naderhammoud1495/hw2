@@ -16,7 +16,7 @@ cd hw2
 
 python main.py
 
-## To create image and run with Docker
+## To create image and run with docker
 ```bash
 docker build -t hw2 .
 
